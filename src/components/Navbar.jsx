@@ -2,13 +2,13 @@ import logoImg from "../../public/images/logo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faClock } from '@fortawesome/free-regular-svg-icons';
 import { faBars, faXmark} from '@fortawesome/free-solid-svg-icons';
-import statsIcon from "../../public/images/Vector.png";
+import statsIcon from "../../public/images/stats.png";
 import { useState } from "react";
 
 export default function Navbar(){
     const [open, setOpen] = useState(false);
         const handleMenu = () => {
-            console.log('bar clicked')
+            // console.log('bar clicked')
             setOpen(!open);
 
         }
