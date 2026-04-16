@@ -6,7 +6,7 @@
     "email": "john@example.com",
     "days_since_contact": "12d ago",
     "status": "almost due",
-    "tags": ["college", "close friend"],
+    "tags": ["college"],
     "bio": "Met in university. Love hiking together.",
     "goal": 14,
     "next_due_date": "2025-07-20"
@@ -18,7 +18,7 @@
     "email": "sarah@example.com",
     "days_since_contact": "3d ago",
     "status": "overdue",
-    "tags": ["work", "colleague"],
+    "tags": ["work"],
     "bio": "Worked together on a startup project.",
     "goal": 7,
     "next_due_date": "2025-04-18"
@@ -30,7 +30,7 @@
     "email": "ahmed@example.com",
     "days_since_contact": "25d ago",
     "status": "overdue",
-    "tags": ["school", "best friend"],
+    "tags": ["school"],
     "bio": "School best friend, still in touch.",
     "goal": 30,
     "next_due_date": "2025-05-01"
@@ -54,7 +54,7 @@
     "email": "rahim@example.com",
     "days_since_contact": "18d ago",
     "status": "overdue",
-    "tags": ["family", "cousin"],
+    "tags": ["family"],
     "bio": "Cousin, grew up together.",
     "goal": 20,
     "next_due_date": "2025-04-25"
@@ -66,7 +66,7 @@
     "email": "nusrat@example.com",
     "days_since_contact": "6d ago",
     "status": "on-track",
-    "tags": ["college", "friend"],
+    "tags": ["college"],
     "bio": "Classmate from university.",
     "goal": 10,
     "next_due_date": "2025-04-15"
@@ -78,7 +78,7 @@
     "email": "michael@example.com",
     "days_since_contact": "40d ago",
     "status": "on-track",
-    "tags": ["work", "mentor"],
+    "tags": ["work"],
     "bio": "Mentor from internship program.",
     "goal": 60,
     "next_due_date": "2025-06-01"
@@ -102,7 +102,7 @@
     "email": "david@example.com",
     "days_since_contact": "30d ago",
     "status": "almost due",
-    "tags": ["business", "client"],
+    "tags": ["business"],
     "bio": "Business client from freelance work.",
     "goal": 45,
     "next_due_date": "2025-05-10"
@@ -114,7 +114,7 @@
     "email": "sadia@example.com",
     "days_since_contact": "5d ago",
     "status": "overdue",
-    "tags": ["college", "close friend"],
+    "tags": ["college"],
     "bio": "University close friend, always supportive.",
     "goal": 10,
     "next_due_date": "2025-04-14"
@@ -126,7 +126,7 @@
     "email": "robert@example.com",
     "days_since_contact": "22d ago",
     "status": "overdue",
-    "tags": ["work", "team mate"],
+    "tags": ["work"],
     "bio": "Team mate in office project.",
     "goal": 30,
     "next_due_date": "2025-05-05"
