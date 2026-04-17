@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "John Doe",
-    "picture": "/public/images/Ellipse 1.png",
+    "picture": "/images/Ellipse 1.png",
     "email": "john@example.com",
     "days_since_contact": "12",
     "status": "almost due",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Sarah Khan",
-    "picture": "/public/images/Ellipse 2.png",
+    "picture": "/images/Ellipse 2.png",
     "email": "sarah@example.com",
     "days_since_contact": "3",
     "status": "overdue",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Raju Ahmed",
-    "picture": "/public/images/Ellipse 3.png",
+    "picture": "/images/Ellipse 3.png",
     "email": "ahmed@example.com",
     "days_since_contact": "25",
     "status": "overdue",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Emily Watson",
-    "picture": "/public/images/Ellipse 4.png",
+    "picture": "/images/Ellipse 4.png",
     "email": "emily@example.com",
     "days_since_contact": "1",
     "status": "overdue",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "Rahim Uddin",
-    "picture": "/public/images/Ellipse 5.png",
+    "picture": "/images/Ellipse 5.png",
     "email": "rahim@example.com",
     "days_since_contact": "18",
     "status": "overdue",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Nusrat Jahan",
-    "picture": "/public/images/Ellipse 6.png",
+    "picture": "/images/Ellipse 6.png",
     "email": "nusrat@example.com",
     "days_since_contact": "6",
     "status": "on-track",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "Michael Brown",
-    "picture": "/public/images/Ellipse 7.png",
+    "picture": "/images/Ellipse 7.png",
     "email": "michael@example.com",
     "days_since_contact": "40",
     "status": "on-track",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Ayesha Akter",
-    "picture": "/public/images/Ellipse 8.png",
+    "picture": "/images/Ellipse 8.png",
     "email": "ayesha@example.com",
     "days_since_contact": "2",
     "status": "almost due",
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "name": "David Lee",
-    "picture": "/public/images/Ellipse 9.png",
+    "picture": "/images/Ellipse 9.png",
     "email": "david@example.com",
     "days_since_contact": "30",
     "status": "almost due",
@@ -110,7 +110,7 @@
   {
     "id": 10,
     "name": "Sadia Islam",
-    "picture": "/public/images/Ellipse 10.png",
+    "picture": "/images/Ellipse 10.png",
     "email": "sadia@example.com",
     "days_since_contact": "5",
     "status": "overdue",
@@ -122,7 +122,7 @@
   {
     "id": 11,
     "name": "Robert Smith",
-    "picture": "/public/images/Ellipse 11.png",
+    "picture": "/images/Ellipse 11.png",
     "email": "robert@example.com",
     "days_since_contact": "22",
     "status": "overdue",
@@ -134,7 +134,7 @@
   {
     "id": 12,
     "name": "Fatima Noor",
-    "picture": "/public/images/Ellipse 12.png",
+    "picture": "/images/Ellipse 12.png",
     "email": "fatima@example.com",
     "days_since_contact": "4",
     "status": "on-track",
