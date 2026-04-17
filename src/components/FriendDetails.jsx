@@ -127,7 +127,7 @@ const FriendDetails = () => {
           <div className="card w-full bg-base-100 card-lg shadow-sm p-8">
               <div className='flex justify-between mb-5'>
                 <h2 className="card-title text-[#244D3F] font-medium text-3xl">Relationship Goal</h2>
-                <button>Edit</button>
+                <button className='btn'>Edit</button>
               </div>
                 <p>
                   <span className='text-[#64748B]'>Connect every </span>
