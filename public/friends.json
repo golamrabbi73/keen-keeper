@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "John Doe",
-    "picture": "https://i.ibb.co.com/CK740gRW/handsome-bearded-businessman-rubbing-hands-having-deal.jpg",
+    "picture": "/public/images/Ellipse 1.png",
     "email": "john@example.com",
     "days_since_contact": "12",
     "status": "almost due",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Sarah Khan",
-    "picture": "https://i.ibb.co.com/0jkj9bTJ/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-ta.jpg",
+    "picture": "/public/images/Ellipse 2.png",
     "email": "sarah@example.com",
     "days_since_contact": "3",
     "status": "overdue",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Raju Ahmed",
-    "picture": "https://i.ibb.co.com/qLxMhdv0/young-bearded-man-with-striped-shirt.jpg",
+    "picture": "/public/images/Ellipse 3.png",
     "email": "ahmed@example.com",
     "days_since_contact": "25",
     "status": "overdue",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Emily Watson",
-    "picture": "https://i.ibb.co.com/SXZ2gcR1/valentin-lacoste-gg-APxrb4-Deg-unsplash.jpg",
+    "picture": "/public/images/Ellipse 4.png",
     "email": "emily@example.com",
     "days_since_contact": "1",
     "status": "overdue",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "Rahim Uddin",
-    "picture": "https://i.ibb.co.com/nKTJ2MN/gregory-hayes-h5cd51-KXm-RQ-unsplash.jpg",
+    "picture": "/public/images/Ellipse 5.png",
     "email": "rahim@example.com",
     "days_since_contact": "18",
     "status": "overdue",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Nusrat Jahan",
-    "picture": "https://i.ibb.co.com/TQHdjg8/samuel-raita-Ri-Dx-Dg-Hg7pw-unsplash.jpg",
+    "picture": "/public/images/Ellipse 6.png",
     "email": "nusrat@example.com",
     "days_since_contact": "6",
     "status": "on-track",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "Michael Brown",
-    "picture": "https://i.ibb.co.com/8ggrX6RM/microsoft-365-7m-Bict-B-urk-unsplash.jpg",
+    "picture": "/public/images/Ellipse 7.png",
     "email": "michael@example.com",
     "days_since_contact": "40",
     "status": "on-track",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Ayesha Akter",
-    "picture": "https://i.ibb.co.com/1G8bgLRZ/christina-wocintechchat-com-m-0-Zx1b-Dv5-BNY-unsplash.jpg",
+    "picture": "/public/images/Ellipse 8.png",
     "email": "ayesha@example.com",
     "days_since_contact": "2",
     "status": "almost due",
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "name": "David Lee",
-    "picture": "https://i.ibb.co.com/RTBqpQjS/daniel-capelani-g-Rsl-JX1-S4h0-unsplash.jpg",
+    "picture": "/public/images/Ellipse 9.png",
     "email": "david@example.com",
     "days_since_contact": "30",
     "status": "almost due",
@@ -110,7 +110,7 @@
   {
     "id": 10,
     "name": "Sadia Islam",
-    "picture": "https://i.ibb.co.com/RmzQWh8/paul-schafer-NDc-N-8-Ji-Aqw-unsplash.jpg",
+    "picture": "/public/images/Ellipse 10.png",
     "email": "sadia@example.com",
     "days_since_contact": "5",
     "status": "overdue",
@@ -122,7 +122,7 @@
   {
     "id": 11,
     "name": "Robert Smith",
-    "picture": "https://i.ibb.co.com/vCQgC9x3/ayo-ogunseinde-6-W4-F62s-N-y-I-unsplash.jpg",
+    "picture": "/public/images/Ellipse 11.png",
     "email": "robert@example.com",
     "days_since_contact": "22",
     "status": "overdue",
@@ -134,7 +134,7 @@
   {
     "id": 12,
     "name": "Fatima Noor",
-    "picture": "https://i.ibb.co.com/NdLSZBDz/aiony-haust-3-TLl-97-HNJo-unsplash.jpg",
+    "picture": "/public/images/Ellipse 12.png",
     "email": "fatima@example.com",
     "days_since_contact": "4",
     "status": "on-track",
