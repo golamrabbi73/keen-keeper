@@ -19,10 +19,10 @@ const Navbar = () => {
         <NavLink to={"/"} className={({isActive}) => `mr-3 ${isActive ? "bg-[#244D3F] text-white rounded" : ""}`}><FontAwesomeIcon icon={faHouse} />Home</NavLink>
       </li>
       <li>
-        <NavLink to={"/friends"} className={({isActive}) => `mr-3 ${isActive ? "bg-[#244D3F] text-white rounded" : ""}`}><FontAwesomeIcon icon={faClock} />Timeline</NavLink>
+        <NavLink to={"/timeline"} className={({isActive}) => `mr-3 ${isActive ? "bg-[#244D3F] text-white rounded" : ""}`}><FontAwesomeIcon icon={faClock} />Timeline</NavLink>
       </li>
       <li>
-        <NavLink to={"/all"} className={({isActive}) => `${isActive ? "bg-[#244D3F] text-white rounded" : ""}`}><img src={statsIcon} alt="" />Sats</NavLink>
+        <NavLink to={"/stats"} className={({isActive}) => `${isActive ? "bg-[#244D3F] text-white rounded" : ""}`}><img src={statsIcon} alt="" />Stats</NavLink>
       </li>
   </>
 

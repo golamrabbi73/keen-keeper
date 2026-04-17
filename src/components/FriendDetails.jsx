@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from 'react'
-import { useLoaderData, useParams } from 'react-router-dom'
+import React, { useContext, useEffect, useState } from 'react'
+import { useLoaderData, useNavigate, useParams } from 'react-router-dom'
+import { TimelineContext } from '../context/timeline/TimlineContext'
+import toast from 'react-hot-toast'
 const alarmImg = "/images/alarm.png"
 const archiveImg = "/images/archive.png"
 const deleteImg = "/images/delete.png"
@@ -34,6 +36,16 @@ const FriendDetails = () => {
     console.log(friends)
     const expectedFriend = friends.find(friend => friend.id == id)
     console.log(expectedFriend);
+
+    const {handleAction} = useContext(TimelineContext);
+    const navigate = useNavigate();
+
+    const handleClick = (type) => {
+      handleAction(type, expectedFriend.name);
+      toast.success(`${type} added to timeline`);
+      // navigate("/timeline")
+    }
+
   return (
     <>
       <div className='max-w-6xl mx-auto my-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4'>
@@ -73,27 +85,18 @@ const FriendDetails = () => {
           <div className='grid gap-3'>
 
             {/* soonze card */}
-            <div className="card w-full bg-base-100 card-lg shadow-sm p-3">
-              <div className='flex items-center justify-center gap-3'>
-                <img src={alarmImg} alt="" />
-                <p className='font-medium'>Snooze 2 weeks</p>
-              </div>
+            <div className="card w-full bg-base-100 card-lg shadow-sm">
+              <button className='btn border-none font-medium'><img src={alarmImg} alt="" />Snooze 2 weeks</button>
             </div>
 
             {/* Archive card */}
-            <div className="card w-full bg-base-100 card-lg shadow-sm p-3">
-              <div className='flex items-center justify-center gap-3'>
-                <img src={archiveImg} alt="" />
-                <p className='font-medium'>Archive</p>
-              </div>
+            <div className="card w-full bg-base-100 card-lg shadow-sm">
+              <button className='btn border-none font-medium'><img src={archiveImg} alt="" />Archive</button>
             </div>
 
             {/* delete card */}
-            <div className="card w-full bg-base-100 card-lg shadow-sm p-3">
-              <div className='flex items-center justify-center gap-3'>
-                <img src={deleteImg} alt="" />
-                <p className='font-medium text-red-500'>Delete</p>
-              </div>
+            <div className="card w-full bg-base-100 card-lg shadow-sm">
+              <button className='btn border-none font-medium'><img src={deleteImg} alt="" />Delete</button>
             </div>
           </div>
         </div>
@@ -137,19 +140,25 @@ const FriendDetails = () => {
             <h2 className="card-title text-[#244D3F] font-medium text-3xl mb-4">Quick Check-In</h2>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'>
               {/* call */}
-              <div className="bg-[#E9E9E9] rounded-xl flex flex-col items-center justify-center p-6">
-                <img className='w-8' src={callImg} alt="" />
-                <p className='text-[#1F2937] mt-2'>Call</p>
+              <div>
+                <button onClick={() => handleClick("Call")} className='btn w-full flex flex-col items-center justify-center border-none font-medium bg-[#E9E9E9] rounded-xl p-10'>
+                  <img className='w-8' src={callImg} alt="" />
+                  <span>Call</span>
+                </button>
               </div>
               {/* text */}
-              <div className="bg-[#E9E9E9] rounded-xl flex flex-col items-center justify-center p-6">
-                <img className='w-8' src={textImg} alt="" />
-                <p className='text-[#1F2937] mt-2'>Text</p>
+              <div>
+                <button onClick={() => handleClick("Text")} className='btn w-full flex flex-col items-center justify-center border-none font-medium bg-[#E9E9E9] rounded-xl p-10'>
+                  <img className='w-8' src={textImg} alt="" />
+                  <span>Text</span>
+                </button>
               </div>
               {/* video */}
-              <div className="bg-[#E9E9E9] rounded-xl flex flex-col items-center justify-center p-6">
-                <img className='w-8' src={videoImg} alt="" />
-                <p className='text-[#1F2937] mt-2'>Video</p>
+              <div>
+                <button onClick={() => handleClick("Video")} className='btn w-full flex flex-col items-center justify-center border-none font-medium bg-[#E9E9E9] rounded-xl p-10'>
+                  <img className='w-8' src={videoImg} alt="" />
+                  <span>Video</span>
+                </button>
               </div>
             </div>
           </div>

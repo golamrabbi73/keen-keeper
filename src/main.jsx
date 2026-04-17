@@ -4,12 +4,16 @@ import './index.css'
 // import App from './App.jsx'
 import { RouterProvider } from 'react-router-dom'
 import { router } from './routes/Routes.jsx'
+import TimlineProvider from './context/timeline/TimlineContext.jsx'
+import { Toaster } from 'react-hot-toast'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
-    <h1>Hello</h1>
+    <TimlineProvider>
+      <RouterProvider router={router} />
+      <Toaster position='top-center' />
+    </TimlineProvider>
     {/* <App /> */}
   </StrictMode>,
 )
