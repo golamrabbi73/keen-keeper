@@ -1,16 +1,71 @@
-# React + Vite
+# 👥 Friend Relationship Tracker (KeenKeeper)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Description
+Friend Relationship Tracker is a modern React-based web application that helps users manage and maintain meaningful relationships.  
+Users can track friends, log interactions (Call, Text, Video), and visualize relationship activity through an interactive timeline and analytics dashboard.
 
-Currently, two official plugins are available:
+This project focuses on state management, component reusability, and clean UI/UX design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 👤 Manage friends and their details
+- 📅 Track interaction history (Call / Text / Video)
+- 📊 Visual analytics using charts (Pie Chart)
+- 🔍 Search and filter timeline activities
+- ⚡ Real-time state update using Context API
+- 📱 Fully responsive UI design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| React.js | Build the UI |
+| React Router DOM | Handle page navigation |
+| Context API | Global state management (Timeline system) |
+| Tailwind CSS | Styling and responsiveness |
+| DaisyUI | UI components |
+| Recharts | Data visualization (Pie Chart) |
+| React Hot Toast | Notifications |
+
+---
+
+## ✨ Key Features
+
+### 1. 📅 Timeline Tracking
+Every interaction (Call, Text, Video) is automatically stored in a global timeline with:
+- Name
+- Type of interaction
+- Date & time
+- Icon representation
+
+---
+
+### 2. 📊 Analytics Dashboard
+Interactive pie chart shows:
+- Number of Calls
+- Number of Texts
+- Number of Video interactions
+
+---
+
+### 3. 👥 Friend Management System
+Each friend includes:
+- Profile picture
+- Status (On-track / Almost due / Overdue)
+- Tags and bio
+- Relationship goal tracking
+
+---
+
+## 🧠 What I Learned
+
+- React Context API state management
+- Component-based architecture
+- Routing with React Router
+- Data visualization using Recharts
+- Clean UI design using Tailwind CSS
+
